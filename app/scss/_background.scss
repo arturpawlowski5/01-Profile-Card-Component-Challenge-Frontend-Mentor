@@ -1,0 +1,32 @@
+.circles .circle_01,
+.circles .circle_02 {
+	position: absolute;
+	animation: 2s circles forwards;
+	opacity: 0;
+	overflow: hidden;
+}
+
+.circle_01 {
+	top: -50vh;
+	left: -20vw;
+	transform: translate(-30vh, -10vw);
+	width: 50vw;
+}
+
+.circle_02 {
+	bottom: -50vh;
+	right: -20vw;
+	transform: translate(30vh, 10vw);
+	width: 70vw;
+}
+
+@keyframes circles {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+		transform: translate(0);
+	}
+}

@@ -1,0 +1,40 @@
+:root {
+	--background-color: hsl(185, 75%, 39%);
+	--bacground-color-card: hsl(0, 0%, 100%);
+	--border-white: hsl(0, 0%, 100%);
+	--border-light: hsl(0, 0%, 90%);
+	--font-color-dark: hsl(229, 23%, 23%);
+	--font-color-light: hsl(227, 10%, 46%);
+	--link: hsl(228, 45%, 44%);
+	--link-hover: hsl(185, 75%, 39%);
+}
+
+html {
+	font-size: 18px;
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: "Kumbh Sans", sans-serif;
+	line-height: 1.3rem;
+	font-weight: 700;
+	margin: 0px;
+	padding: 0px;
+	color: var(--font-color-dark);
+	background-color: var(--background-color);
+}
+
+.main {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	overflow: hidden;
+}
